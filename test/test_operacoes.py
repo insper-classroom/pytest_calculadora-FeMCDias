@@ -18,4 +18,5 @@ def test_media_lista_valores():
     assert 5.5 == media_lista_valores(v1)
     v2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'a']
     assert 5.5 == media_lista_valores(v2)
+    #Testa se a função retorna 0 quando a lista está vazia
     assert 0 == media_lista_valores([])
